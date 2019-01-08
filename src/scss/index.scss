@@ -1,1 +1,13 @@
 @import "~bootstrap/scss/bootstrap";
+#content {
+  background: grey;
+
+  div.homepage {
+  text-align: center;
+  padding-top: 45px;
+
+  .home-image {
+    width: 100%;
+  }
+}
+}
