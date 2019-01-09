@@ -2,12 +2,12 @@
 
   function loadHome(parentNode) {
     let homePage = document.createElement('div');
-    homePage.className = 'homepage container';
+    homePage.className = 'removeables homepage container';
     let welcomeMessage = document.createElement('h1');
     welcomeMessage.innerHTML = 'Welcome to Yakooyo Restaurant and Bar';
     let homeImage = document.createElement('img');
     homeImage.className = 'home-image';
-    homeImage.src = 'https://www.theshoresrestaurant.com/var/theshoresrestaurant/storage/images/media/images/the-shores-restaurant/home-page-headers/5.17.17-bar-food-2/91742-1-eng-US/5.17.17-Bar-Food-2.jpg';
+    homeImage.src = './assets/yakooyo.jpg';
     homeImage.alt = 'restaurant image';
 
     let briefStoryDiv = document.createElement('div');
